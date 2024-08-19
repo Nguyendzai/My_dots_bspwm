@@ -1,0 +1,17 @@
+// Rofi colors for Aing
+
+* {
+    font: "Terminess Nerd Font Mono Bold 10";
+    background: #2E3440;
+    background-alt: #3B4252E0;
+    foreground: #D8DEE9;
+    selected: #88C0D0;
+    active: #A3BE8C;
+    urgent: #BF616A;
+    img-background: url("~/.config/bspwm/rices/aing/rofi.webp", width);
+    main-bg: #2E3440E0;
+    main-fg: #D8DEE9;
+    main-fg-alt: #3B4252E0;
+    select-bg: #88C0D0;
+    select-fg: #2E3440;
+}
