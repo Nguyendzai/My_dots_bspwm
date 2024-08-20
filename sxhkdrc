@@ -1,7 +1,7 @@
 #  ███████╗██╗  ██╗██╗  ██╗██╗  ██╗██████╗ ██████╗  ██████╗
 #  ██╔════╝╚██╗██╔╝██║  ██║██║ ██╔╝██╔══██╗██╔══██╗██╔════╝
-#  ███████╗ ╚███╔╝ ███████║█████╔╝ ██║  ██║██████╔╝██║     
-#  ╚════██║ ██╔██╗ ██╔══██║██╔═██╗ ██║  ██║██╔══██╗██║     
+#  ███████╗ ╚███╔╝ ███████║█████╔╝ ██║  ██║██████╔╝██║
+#  ╚════██║ ██╔██╗ ██╔══██║██╔═██╗ ██║  ██║██╔══██╗██║
 #  ███████║██╔╝ ██╗██║  ██║██║  ██╗██████╔╝██║  ██║╚██████╗
 #  ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝ ╚═════╝
 #	z0mbi3			https://github.com/gh0stzk/dotfiles
@@ -34,7 +34,7 @@ super + e
 
 super + b
 	firefox
-	
+
 super + c
 	code
 
@@ -127,7 +127,7 @@ super + alt + r
 # close and kill
 super + {_,shift + }q
 	bspc node -{c,k}
-	
+
 # Reload Keybindings
 super + Escape
 	pkill -USR1 -x sxhkd; dunstify -u low -i ~/.config/bspwm/assets/reload.svg 'sxhkd' 'The configuration file has been reloaded successfully!'
@@ -187,7 +187,7 @@ super + alt + space
 	bspc node -p cancel
 
 #####
-	
+
 # expand a window
 ctrl + alt {Left,Down,Up,Right}
 	bspc node -z {left -10 0,bottom 0 10,top 0 -10,right 10 0}
@@ -203,9 +203,3 @@ alt + shift {Left,Down,Up,Right}
 # Note
 super + o
     ~/AppImage/Obsidian-1.6.7.AppImage
-
-	
-
-
-
-

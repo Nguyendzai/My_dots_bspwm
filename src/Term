@@ -56,7 +56,8 @@ case $MY_TERM in
                 alacritty --hold --class Updating,Updating -o window.dimensions.lines=22 window.dimensions.columns=47 -e Updates --print-updates
                 ;;
             "--ranger")
-                alacritty --class FloaTerm,FloaTerm -o window.dimensions.lines=14 window.dimensions.columns=90 -e ranger
+                #alacritty --class FloaTerm,FloaTerm -o window.dimensions.lines=14 window.dimensions.columns=90 -e ranger
+                alacritty -e ranger
                 ;;
             "--nvim")
                 alacritty -e nvim

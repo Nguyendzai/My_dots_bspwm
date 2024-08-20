@@ -8,7 +8,7 @@
     selected: #88C0D0;
     active: #A3BE8C;
     urgent: #BF616A;
-    img-background: url("~/.config/bspwm/rices/aing/rofi.webp", width);
+    img-background: url("~/.config/bspwm/rices/nord/rofi.webp", width);
     main-bg: #2E3440E0;
     main-fg: #D8DEE9;
     main-fg-alt: #3B4252E0;
